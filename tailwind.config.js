@@ -15,7 +15,11 @@ module.exports = {
     ],
   },
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        bannerBg: "url('/src/assets/images/bg.png')",
+      }
+    },
   },
   plugins: [require("daisyui")],
 };

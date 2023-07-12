@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import Banner from "../Banner/Banner";
 
 const Home = () => {
-    return (
-        <div className='mx-[21px]'>
-            <h2>This is home page</h2>
-        </div>
-    );
+  return (
+    <div className="mx-[21px]">
+      <Banner></Banner>
+    </div>
+  );
 };
 
 export default Home;
