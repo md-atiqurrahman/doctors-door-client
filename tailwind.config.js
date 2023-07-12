@@ -18,7 +18,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         bannerBg: "url('/src/assets/images/bg.png')",
-      }
+      },
+      boxShadow: {
+        customShadow: "3px 4px 10px 2px rgba(0, 0, 0, 0.05)",
+      },
     },
   },
   plugins: [require("daisyui")],
