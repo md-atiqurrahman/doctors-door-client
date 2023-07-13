@@ -5,7 +5,7 @@ import Services from "../Services/Services";
 
 const Home = () => {
   return (
-    <div className="mx-[21px]">
+    <div className="mx-[25px] lg:mx-[21px]">
       <Banner></Banner>
       <DetailsCards></DetailsCards>
       <Services></Services>

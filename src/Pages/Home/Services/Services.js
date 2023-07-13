@@ -5,7 +5,7 @@ import whitening from "../../../assets/images/whitening.png";
 import Service from "./Service";
 
 const Services = () => {
-  const serviceData = [
+  const servicesData = [
     {
       id: 1,
       image: fluoride,
@@ -28,14 +28,14 @@ const Services = () => {
   return (
     <div className="mt-[131px]">
       <div className="text-center mb-[70px]">
-        <h4 className="text-secondary text-[20px] font-bold">OUR SERVICES</h4>
+        <h4 className="text-secondary uppercase text-[20px] font-bold">Our Services</h4>
         <h2 className="text-accent text-[36px] font-normal">
           Services We Provide
         </h2>
       </div>
-      <div className="grid grid-cols-3 gap-[34px] justify-items-center">
+      <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[34px] justify-items-center">
         {
-            serviceData.map(service => <Service
+            servicesData.map(service => <Service
             key={service.id}
             image={service.image}
             title={service.title}
