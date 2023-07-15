@@ -1,0 +1,15 @@
+@media screen and (min-width: 640px) {
+  .hero{
+    min-height: 0px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero{
+    min-height: 100vh;
+  }
+}
+@media screen and (min-width: 1441px) {
+  .hero{
+    min-height: 838px;
+  }
+}
