@@ -4,7 +4,7 @@ import './Banner.css';
 
 const Banner = () => {
   return (
-    <div>
+    <section>
       <div
         className="hero bg-no-repeat bg-transparent lg:bg-bannerBg  mt-[10px]"
       >
@@ -27,7 +27,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

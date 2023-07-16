@@ -29,7 +29,7 @@ const DetailsCards = () => {
     },
   ];
   return (
-    <div className="mt-[80px] lg:mt-[64px]">
+    <section className="mt-[80px] lg:mt-[64px]">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px]">
         {cardData.map((card) => (
           <DetailsCard
@@ -41,7 +41,7 @@ const DetailsCards = () => {
           ></DetailsCard>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

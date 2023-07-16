@@ -3,7 +3,7 @@ import treatment from "../../../assets/images/treatment.png";
 
 const Speciality = () => {
   return (
-    <div className="mt-[56px] lg:mt-[154px] flex flex-col lg:flex-row justify-center items-center  gap-[37px] lg:gap-[102px] pl-0 lg:pl-[196px] pr-0 lg:pr-[140px]">
+    <section className="mt-[56px] lg:mt-[154px] flex flex-col lg:flex-row justify-center items-center  gap-[37px] lg:gap-[102px] pl-0 lg:pl-[196px] pr-0 lg:pr-[140px]">
       <div>
         <img className="max-w-[322px] lg:max-w-sm rounded-[8px]" src={treatment} alt="" />
       </div>
@@ -23,7 +23,7 @@ const Speciality = () => {
           GET STARTED
         </button>
       </div>
-    </div>
+    </section>
   );
 };
 

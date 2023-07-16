@@ -26,7 +26,7 @@ const Services = () => {
     },
   ];
   return (
-    <div className="mt-[131px]">
+    <section className="mt-[131px]">
       <div className="text-center mb-[70px]">
         <h4 className="text-secondary uppercase text-[20px] font-bold">Our Services</h4>
         <h2 className="text-accent text-[36px] font-normal">
@@ -43,7 +43,7 @@ const Services = () => {
             ></Service>)
         }
       </div>
-    </div>
+    </section>
   );
 };
 
