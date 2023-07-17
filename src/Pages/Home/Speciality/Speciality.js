@@ -1,5 +1,6 @@
 import React from "react";
 import treatment from "../../../assets/images/treatment.png";
+import PrimaryButton from "../../../Components/PrimaryButton/PrimaryButton";
 
 const Speciality = () => {
   return (
@@ -11,7 +12,7 @@ const Speciality = () => {
         <h2 className="text-accent text-[48px] font-bold">
           Exceptional Dental Care, on Your Terms
         </h2>
-        <p className="text-black text-[16px] text-normal mt-2 text-justify">
+        <p className="text-black text-[16px] text-normal mt-2 mb-[37px] text-justify">
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. The point of
           using Lorem Ipsumis that it has a more-or-less normal distribution of
@@ -19,9 +20,7 @@ const Speciality = () => {
           look like readable English. Many desktop publishing packages and web
           page
         </p>
-        <button className="btn mt-[37px] bg-gradient-to-r from-secondary to-primary text-white text-[14px] font-bold">
-          GET STARTED
-        </button>
+        <PrimaryButton>Get Started</PrimaryButton>
       </div>
     </section>
   );

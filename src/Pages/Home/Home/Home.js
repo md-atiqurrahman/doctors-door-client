@@ -7,11 +7,13 @@ import MakeAppointment from "../MakeAppointment/MakeAppointment";
 
 const Home = () => {
   return (
-    <main className="mx-[25px] lg:mx-[21px]">
-      <Banner></Banner>
-      <DetailsCards></DetailsCards>
-      <Services></Services>
-      <Speciality></Speciality>
+    <main>
+      <div className="mx-[25px] lg:mx-[21px]">
+        <Banner></Banner>
+        <DetailsCards></DetailsCards>
+        <Services></Services>
+        <Speciality></Speciality>
+      </div>
       <MakeAppointment></MakeAppointment>
     </main>
   );

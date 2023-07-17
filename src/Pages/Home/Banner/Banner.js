@@ -1,6 +1,7 @@
 import React from "react";
 import chair from "../../../assets/images/chair.png";
 import './Banner.css';
+import PrimaryButton from "../../../Components/PrimaryButton/PrimaryButton";
 
 const Banner = () => {
   return (
@@ -21,9 +22,7 @@ const Banner = () => {
               check-ups and cleanings. They can also perform a variety of oral
               health treatments.
             </p>
-            <button className="btn bg-gradient-to-r from-secondary to-primary text-white">
-              Get Started
-            </button>
+            <PrimaryButton>Get Started</PrimaryButton>
           </div>
         </div>
       </div>
