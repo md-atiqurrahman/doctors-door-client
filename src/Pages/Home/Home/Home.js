@@ -5,6 +5,7 @@ import Services from "../Services/Services";
 import Speciality from "../Speciality/Speciality";
 import MakeAppointment from "../MakeAppointment/MakeAppointment";
 import Testimonial from "../Testimonial/Testimonial";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <div className="mt-[84px] mx-[27px] lg:mx-[51px]">
         <Testimonial></Testimonial>
       </div>
+      <Contact></Contact>
     </main>
   );
 };
