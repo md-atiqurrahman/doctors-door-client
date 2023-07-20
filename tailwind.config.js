@@ -19,6 +19,7 @@ module.exports = {
       backgroundImage: {
         bannerBg: "url('/src/assets/images/bg.png')",
         appointmentBg: "url('/src/assets/images/appointment.png')",
+        footerBg: "url('/src/assets/images/footer.png')",
       },
       boxShadow: {
         customShadow: "3px 4px 10px 2px rgba(0, 0, 0, 0.05)",
