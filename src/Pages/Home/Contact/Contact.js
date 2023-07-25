@@ -2,10 +2,10 @@ import React from "react";
 import PrimaryButton from "../../../Components/PrimaryButton/PrimaryButton";
 
 const Contact = () => {
-  const btnClass = "w-[120px] mb-[71px]";
+  const btnClass = "w-[120px]";
   return (
-    <section className="flex flex-col items-center bg-appointmentBg bg-cover bg-center bg-no-repeat mt-[129px] lg:mt-[149px]">
-      <div className="text-center mt-[65px] mb-[26px]">
+    <section className="flex flex-col items-center bg-appointmentBg bg-cover bg-center bg-no-repeat mt-[129px] lg:mt-[149px] pt-[65px] pb-[71px]">
+      <div className="text-center  mb-[26px]">
         <h6 className="text-secondary text-[20px] font-bold">Contact Us</h6>
         <h4 className="text-white text-[36px] font-normal">
           Stay connected with us
